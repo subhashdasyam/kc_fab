@@ -99,7 +99,7 @@
                         window.location.href = $(this).attr('data-link-href');
                     }
                 }
-                main_fab_btn.toggleClass('rotate');
+                
             	sub_fab_btns.toggleClass('show');
 
             	if ($(".kc_fab_overlay").length > 0){
@@ -128,7 +128,7 @@
                 x = e.pageX - $(this).offset().left - ink.width()/2;
                 y = e.pageY - $(this).offset().top - ink.height()/2;
                  
-                ink.css({top: y+'px', left: x+'px'}).addClass("animate");
+                ink.css({top: y+'px', left: x+'px'}).addClass("rotate");
 
             });
 
