@@ -99,6 +99,7 @@
                         window.location.href = $(this).attr('data-link-href');
                     }
                 }
+                main_fab_btn.toggleClass('rotate');
             	sub_fab_btns.toggleClass('show');
 
             	if ($(".kc_fab_overlay").length > 0){
