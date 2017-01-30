@@ -128,7 +128,8 @@
                 x = e.pageX - $(this).offset().left - ink.width()/2;
                 y = e.pageY - $(this).offset().top - ink.height()/2;
                  
-                ink.css({top: y+'px', left: x+'px'}).addClass("rotate");
+                //ink.css({top: y+'px', left: x+'px'}).addClass("rotate");
+                ink.addClass("rotate");
 
             });
 
